@@ -16,6 +16,7 @@ const SearchResult = ({data})=>{
                             <h3>{name}</h3>
                             <p>{text}</p>
                         </div>
+
                         <Button>${price.toFixed(2)}</Button>
                     </div>
                 </FoodCard>))
